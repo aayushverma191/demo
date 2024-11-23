@@ -1,3 +1,4 @@
+@Library ('heyninja') _
 def call(String branch, String repoUrl) {
     pipeline {
         agent any
