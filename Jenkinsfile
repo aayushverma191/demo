@@ -6,7 +6,7 @@
             stage('clone') {
                 steps {
                     echo "Cloning repository..."
-                    git branch: 'main' url: 'https://github.com/builderHub/CICD-01.git'
+                    git branch: 'main' , url: 'https://github.com/builderHub/CICD-01.git'
                 }
             }
             stage('test') {
